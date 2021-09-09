@@ -1,0 +1,112 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My landing product page</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- My CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        
+        <img id="header-img" src="img/logo-trucho.png" alt="logo">
+    
+        <nav id="nav-bar">
+            <ul class="nav-list">
+                <li>
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section id="intro">
+        <iframe id="video" src="https://www.youtube.com/embed/ZxanRl1OpNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+            
+    <div class="container">
+        <section id="features">
+            <h2 class="section-tittle text-center">Features</h2>
+            <div class="feature">
+                <img src="https://icongr.am/clarity/design.svg?size=29&color=fd7200" alt="regla y lapiz" class="icon""> 
+                <div class="featureDesc">
+                    <h3>Personal customization</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, eum? Excepturi rerum ab error nam odio. Eos, quos itaque ipsa nobis repellat id nesciunt officiis?</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://icongr.am/clarity/campervan.svg?size=29&color=fd7200" alt="camion" class="icon"">
+                <div class="featureDesc">
+                    <h3>Shipment</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla atque aliquam quos minus a? Ea, enim! A excepturi illum facilis repudiandae quibusdam iure dicta vitae</p>
+                </div>
+            </div>
+            <div class="feature"">
+                <img src="https://icongr.am/clarity/bank.svg?size=29&color=fd7200" alt="banco" class="icon">
+                <div class="featureDesc">
+                    <h3>Payment methods</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat animi consectetur, minima expedita necessitatibus veniam dolore rem quo voluptate cupiditate.</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 id="products" class="section-tittle text-center" >Products</h2>
+        <section id="productsGrid">    
+            <div id= "gorritos" class="product" >
+                <h3>Gorritos</h3>
+            </div>
+            <div id= "remera" class="product">
+                <h3>Remeras</h3>
+            </div>
+            <div id= "sacos" class="product" >
+                <h3>Sacos</h3> </div>
+            <div id= "bufandas" class="product" >
+                <h3>Bufandas</h3>
+            </div>
+            
+        </section>
+
+        <section id="subscribe">
+            <div>
+                <div class="subDesc text-center">
+                    <h3>Subscribe to ours newsletter!</h3>
+                    <span>Recibi las ultimas noticias y promociones del catalogo directo a tu e-mail</span>
+                </div>
+                <div>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input id="email" name="email" type="email" placeholder="Enter your email here!">
+                        <input id="submit" class="btn" type="submit"  value="Subscribe" >
+                    </form>    
+
+                </div>
+            </div>
+        
+        </section>
+    </div>
+    
+    <footer>
+        <ul>
+            <li>Privacy</li>
+            <li>Conditions</li>
+            <li>Terms</li>
+        </ul>
+        <span>Coryright 2021, Pensando en Vos©</span>
+    </footer>
+               
+</body>
+</html>
